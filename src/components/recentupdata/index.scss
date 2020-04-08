@@ -1,0 +1,123 @@
+.listUpdate{
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    float: left;
+    width: 950px;
+    .mod-title{
+        margin: 0 30px 0 20px;
+        height: 48px;
+        line-height: 48px;
+        background: #fff;
+        border-bottom: 1px solid #f0f3f5 !important;
+        .title-bd{
+            position: relative;
+            h2{
+                height: 48px;
+                line-height: 48px;
+                display: inline-block;
+                font-size: 18px;
+                color: #333;
+                font-weight: 400;
+            }
+            .more{
+                color: #999;
+                font-size: 14px;
+                position: absolute;
+                right: 8px;
+                top: 0;
+            }
+            .tab{
+                position: absolute;
+                right: 85px;
+                top: 13px;
+                li{
+                    float: left;
+                    width: 58px;
+                    height: 23px;
+                    color: #999;
+                    border: 1px solid transparent;
+                    border-radius: 12px;
+                    text-align: center;
+                    margin-right: -4px;
+                    margin-left: -4px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    cursor: pointer;
+                    &.on {
+                        font-size: 16px;
+                        color: #ff4c2f;
+                        border-color: #ff4c2f;
+                    }
+                }
+            }
+        }
+    }
+    .content-all {
+        padding: 10px 40px 0 30px;
+        .clearfixer {
+            clear: both;
+            &.clearfixer:after {
+                display: block;
+                clear: both;
+                content: '';
+            }
+        }
+        .title {
+            span{
+                line-height: 30px;
+                color: #666;
+                float: left;
+                overflow: hidden;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .classis {
+                width: 109px;
+            }
+            .name {
+                width: 176px;
+            }
+            .newest{
+                width: 290px;
+            }
+            .author {
+                width: 150px;
+            }
+            .time {
+                width: 140px;
+            }
+        }
+        .item {
+            border-bottom: 1px dashed #e6e6e6;
+            a{
+                line-height: 44px;
+                font-size: 14px;
+                color: #999;
+                float: left;
+                overflow: hidden;
+            }
+            .classis {
+                width: 109px;
+            }
+            .name {
+                width: 176px;
+                color: #333;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            .newest{
+                width: 290px;
+            }
+            .author {
+                width: 150px;
+            }
+            .time {
+                cursor: inherit;
+                width: 150px;
+            }
+        }
+    }
+}

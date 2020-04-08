@@ -1,0 +1,16 @@
+.to_top{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 50%;
+    margin-left: 620px;
+    bottom: 100px;
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../../common/image/backtop.png) no-repeat #fff -1px -1px;
+    &:hover{
+        background: url(../../common/image/backtop-hover.png) no-repeat #000 -1px -1px;
+    }
+}

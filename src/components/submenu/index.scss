@@ -1,0 +1,138 @@
+.rfloat{
+    top: 280px;
+    width: 40px;
+    position: fixed;
+    left: 50%;
+    z-index: 99999;
+    margin-left: 620px;
+    ul{
+        li{
+            height: 40px;
+            a{
+                border: 1px solid #d9d9d9;
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                position: relative;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+        
+            
+        }
+        .r-1 {
+            a{
+                border-bottom: none;
+                background: url(../../common/image/book.png) no-repeat #fff;
+                background-position: -1px -1px;
+                i{
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    left: -1px;
+                    top: -1px;
+                    font-style: normal;
+                }
+                span{
+                    height: 40px;
+                    line-height: 999px;
+                    overflow: hidden;
+                    position: absolute;
+                    top: -1px;
+                    width: 70px;
+                    right: -44px;
+                    display: none;
+                }
+                &:hover{
+                     i{
+                        background: url(../../common/image/bookh.png) no-repeat #333;
+                     }
+                     span{
+                            display: block;
+                            right: auto;
+                            left: -70px;
+                            z-index: 999999999;
+                            background: url(../../common/image/bookh.png) -35px 0 no-repeat #333;
+                     }
+                }
+            }
+
+        }
+        .r-2 {
+            a{
+                border-bottom: none;
+                background: url(../../common/image/doller.png) no-repeat #fff;
+                background-position: -1px -1px;
+                i{
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    left: -1px;
+                    top: -1px;
+                    font-style: normal;
+                }
+                span{
+                    height: 40px;
+                    line-height: 999px;
+                    overflow: hidden;
+                    position: absolute;
+                    top: -1px;
+                    width: 70px;
+                    right: -44px;
+                    display: none;
+                }
+                &:hover{
+                    i{
+                       background: url(../../common/image/dollerh.png) no-repeat #333;
+                    }
+                    span{
+                           width: 45px;
+                           display: block;
+                           right: auto;
+                           left: -44px;
+                           z-index: 999999999;
+                           background: url(../../common/image/dollerh.png) -35px 0 no-repeat #333;
+                    }
+               }
+            }   
+        }
+        .r-3 {
+            a{
+                border-bottom: none;
+                background: url(../../common/image/customer.png) no-repeat #fff;
+                background-position: -1px -1px;
+                i{
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    left: -1px;
+                    top: -1px;
+                    font-style: normal;
+                }
+                span{
+                    height: 40px;
+                    line-height: 999px;
+                    overflow: hidden;
+                    position: absolute;
+                    top: -1px;
+                    width: 70px;
+                    right: -44px;
+                    display: none;
+                }
+                &:hover{
+                    i{
+                       background: url(../../common/image/customerh.png) no-repeat #333;
+                    }
+                    span{
+                           display: block;
+                           width: 45px;
+                           right: auto;
+                           left: -44px;
+                           z-index: 999999999;
+                           background: url(../../common/image/customerh.png) -35px 0 no-repeat #333;
+                    }
+               }
+            }   
+        }
+    }
+}

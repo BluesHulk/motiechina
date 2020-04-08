@@ -1,0 +1,150 @@
+.rank{
+    width:100%;
+    height: 540px;
+    .none{
+        display: none;
+    }
+    .listRank{
+        width: 290px;
+        position: relative;
+        background: #fff;
+        height: 100%;
+        float: left;
+        margin-left: 13px;
+        &:first-of-type{
+           margin-left: 0;  
+        }
+        .more {
+            position: absolute;
+            right: 18px;
+            bottom: 13px;
+            color: #999;
+            font-size: 12px;
+        }
+        .rank-1{
+            margin-left: 20px;
+            font-size: 0;
+           
+            li{
+                clear: both;
+                margin-top: 15px;
+                overflow: hidden;
+                &.top{
+                   position: relative;
+                   .num{
+                        position: absolute;
+                        top: 50%;
+                        margin-top: -10px;
+                    }
+                    .dl{
+                        margin-left: 40px;
+                    }
+                }
+                .book-block{
+                    overflow: hidden;
+                    float: left;
+                    width: 100%;
+                    margin-left: 40px;
+                    height: 85px;
+                    line-height: 85px;
+                    dt{
+                        float: left;
+                        a {
+                            display: inline-block;
+                            width: 100%;
+                            height: 100%;
+                            img{
+                                width: 60px;
+                                overflow: hidden;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    dd{
+                        float: left;
+                        margin-left: 13px;
+                        width: 50%;
+                        margin-top: 35px;
+                        .book-name{
+                            display: block;
+                            color: #000;
+                            height: 18px;
+                            line-height: 18px;
+                            overflow: hidden;
+                            font-size: 14px;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                        .book-author{
+                            position: relative;
+                            font-size: 12px;
+                            color: #999;
+                            height: 18px;
+                            line-height: 18px;
+                            display: block;
+                            margin-top: 10px;
+                            a{
+                                width: 70%;
+                                display: inline-block;
+                                color: #999;
+                                position: absolute;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                    
+                }
+                .num {
+                    width: 23px;
+                    height: 23px;
+                    background: #999;
+                    border-radius: 50%;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 12px;
+                    float: left;
+                    line-height: 23px;
+                    &.front {
+                        background-color: #ff4c2f !important;
+                    }
+                }
+                .book-list-f {
+                    margin-left: 20px;
+                    font-size: 12px;
+                    color: #4c4c4c;
+                    height: 23px;
+                    line-height: 23px;
+                    overflow: hidden;
+                    display: inline-block;
+                    width: auto;
+                }
+            }
+        }
+    }
+    .listTitle {
+        overflow: hidden;
+        background: #fff;
+        .mod-title {
+            margin-left: 20px;
+            height: 48px;
+            line-height: 48px;
+            background: #fff;
+            border-bottom: 1px solid #f2f2f2;
+            .title-bd {
+                position: relative;
+                padding-left: 0;
+                border-bottom: none;
+                h2 {
+                    height: 48px;
+                    line-height: 48px;
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #333;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

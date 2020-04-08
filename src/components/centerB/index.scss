@@ -1,0 +1,17 @@
+.advertising {
+    overflow: hidden;
+    .three {
+        display: block;
+        float: left;
+        
+        img{
+            width: 340px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+       &:nth-child(2) {
+            margin: 0 90px;
+        }
+    }
+}

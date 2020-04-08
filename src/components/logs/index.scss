@@ -1,0 +1,207 @@
+.header-bg{
+    background: #fff;
+    .logozone{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        .logo {
+            height: 50px;
+            position: relative;
+            margin: 0 auto;
+            width: 1200px;
+            zoom: 1;
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                color: #333;
+                .logoImage{
+                    background-image: url('../../common/image/logo.png');
+                    width: 270px;
+                    height: 100px;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    background-repeat: no-repeat;
+                    background-position: 0 50%;
+                }
+            }
+            .searchbox {
+                width: 247px;
+                height: 30px;
+                line-height: 30px;
+                margin-top: 10px;
+                top: 0;
+                right: 150px;
+                position: absolute; 
+                .searchbox-inner {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 4;
+                    .searchinput {
+                        border: 0;
+                        padding: 0 2px 0 28px;
+                        font-size: 12px;
+                        width: 217px;
+                        height: 30px;
+                        line-height: 30px;
+                        margin-top: 0;
+                        display: block;
+                        background: #faf9f4;
+                        border-radius: 16px;
+                    }
+                    .searchbtn {
+                        display: block;
+                        border: 0;
+                        cursor: pointer;
+                        position: absolute;
+                        right: 0;
+                        top: 1px;
+                        border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #333;
+                        color: #333;
+                        .search-icon {
+                            position: absolute;
+                            right: 4px;
+                            top: 5px;
+                            z-index: 2;
+                            pointer-events: none;
+                            background-image: url(../../common/image/sprite.png);
+                            background-position: -451px -24px;
+                            width: 20px;
+                            height: 21px;
+                        }
+                    }
+                }
+                .search-list {
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    border-radius: 9px;
+                    overflow: hidden;
+                    position: absolute;
+                    background: #fff;
+                    top: 15px;
+                    z-index: 3;
+                    width: 100%;
+                    -webkit-box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+                    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+                    padding-top: 25px;
+                    li{
+                         .product-title{
+                            display: block;
+                            height: 52px;
+                            padding-left: 42px;
+                            line-height: 52px;
+                            position: relative;
+                            font-size: 14px;
+                            color: #666;
+                            overflow: hidden;
+                            i{
+                                position: absolute;
+                                left: 15px;
+                                top: 15px;
+                                background-image: url(../../common/image/sprite.png);
+                                background-position: -451px -117px;
+                                width: 17px;
+                                height: 22px;
+                            }
+                            span{
+                                display: inline-block;
+                                max-width: 75px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                vertical-align: top;
+                            }
+                        }
+                    }
+                    .line {
+                        margin-bottom: 2px;
+                        position: relative;
+                        .product {
+                            display: block;
+                            height: 80px;
+                            background: #f2f2f2;
+                            overflow: hidden;
+                            cursor: pointer;
+                            .imgbox {
+                                float: left;
+                                margin: 10px 15px 0;
+                                width: 43px;
+                                height: 58px;
+                                -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+                                box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+                                img{
+                                    width: 43px;
+                                    height: 58px;
+                                }
+                            }
+                            .detail {
+                                float: left;
+                                width: 120px;
+                                .book-name{
+                                    margin-top: 15px;
+                                    line-height: 24px;
+                                    color: #333;
+                                    font-size: 14px;
+                                    width: 122px;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                                .author{
+                                    // margin-block-start:0px;
+                                    // margin-block-end:0px;
+                                    line-height: 24px;
+                                    font-size: 14px;
+                                    width: 122px;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    color: #333;
+                                }
+                            }
+                        }
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            bottom: -2px;
+                            width: 217px;
+                            height: 1px;
+                            border-top: 1px dashed #e6e6e6;
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+           
+            .mybookshelf{
+                margin-top: 10px;
+                font-size: 16px !important;
+                padding-left: 46px;
+                height: 30px;
+                line-height: 30px;
+                color: #333;
+                i{
+                    margin-right: 15px;
+                    float: left;
+                    border-radius: 50%;
+                    background-image: url(../../common/image/sprite.png);
+                    background-position: -414px -197px;
+                    width: 30px;
+                    height: 30px;
+                    background-color: #333;
+                }
+            }
+            &:after {
+                clear: both;
+                content: '';
+            }
+        }
+    }
+}

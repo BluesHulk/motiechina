@@ -1,0 +1,102 @@
+.contactWe {
+    width: 240px;
+    float: right;
+    background: #fff;
+    padding-bottom: 20px;
+    overflow: hidden;
+    .listTitle {
+        overflow: hidden;
+        background: #fff;
+        .mod-title {
+            margin-left: 20px;
+            height: 48px;
+            line-height: 48px;
+            background: #fff;
+            border-bottom: 1px solid #f2f2f2;
+            .title-bd {
+                position: relative;
+                padding-left: 0;
+                border-bottom: none;
+                h2 {
+                    height: 48px;
+                    line-height: 48px;
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #333;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .bd{
+        margin: 15px 0 0 20px;
+        p{
+            span {
+                display: inline-block;
+                vertical-align: top;
+            }
+            .con-left{
+                font-size: 12px;
+                color: #999;
+            }
+            .con-right{
+                font-size: 12px;
+            }
+            .qqcontact {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
+                border-radius: 50%;
+                margin-top: -2px;
+                background: url(../../common/image/qq.png) 4px 4px no-repeat;;
+                background-size: 11px 11px;
+                background-color: #ff4c2f;
+            }
+
+        }
+        p:first-child(){
+            margin-top: 9px;
+        }
+        p:nth-of-type(2){
+            margin-top: 0px;
+            line-height: 30px;
+        }
+        p:nth-of-type(3){
+            margin-top: 0px;
+            line-height: 30px;
+        }
+        .lc {
+            a{
+                color: #ff4c2f !important;
+                text-decoration: underline;
+            }
+            
+        }
+        .jinwen-editor{
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px dashed #b5b5b5;
+            .conect-tit{
+                font-size: 14px;
+                color: #666;
+                
+            }
+            .con-bot {
+                margin-top: 10px;
+                span {
+                    font-size: 12px;
+                    color: #999;
+                    margin-bottom: 5px;
+                }
+                i {
+                    display: block;
+                    line-height: 24px;
+                    margin-top: 1px;
+                    cursor: text;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
